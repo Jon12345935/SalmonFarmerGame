@@ -1,0 +1,16 @@
+# Local Python environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+
+# Per-user careers and game progress
+salmon_farm_save.json
+salmon_world_save.json
+
+# Local editor configuration
+.vscode/
+
+# Build artifacts
+build/
+dist/
+*.spec
