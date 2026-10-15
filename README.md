@@ -8,6 +8,12 @@ The shareholder-value indicator is corporate enthusiasm, measured in points. It 
 
 ## Run
 
+On Windows, open the game folder in File Explorer and **double-click `Play Salmon.bat`**. No PowerShell or typed commands are needed. The launcher uses a local `.venv`, installs missing game packages on first launch, and starts the game. Python must already be installed; the initial package installation needs internet. Leave the launcher's window open behind the game; it closes when you quit normally and shows error details if something goes wrong.
+
+For a downloaded ZIP, extract the entire folder before opening the launcher. Keep the `Songs` folder and MP4 beside the game files. You can right-click `Play Salmon.bat` and choose **Show more options > Send to > Desktop (create shortcut)** for a desktop launch icon.
+
+Alternatively, from PowerShell:
+
 ```powershell
 Set-Location "C:\Users\jon-e\Documents\SalmonFarmerGame"
 python -m pip install -r requirements.txt
